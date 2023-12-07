@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(sandpile_model VERSION 0.1.0 LANGUAGES C CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_EXE_LINKER_FLAGS "-static")
+add_executable(sandpile_model parser.cpp parser.h process_iterations.h process_iterations.cpp bmp_creating.h bmp_creating.cpp Sandpile.cpp)
