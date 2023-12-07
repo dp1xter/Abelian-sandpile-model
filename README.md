@@ -21,4 +21,4 @@ v       v        v
 
 `sandpile_model.exe --input=<tsv_file> --output=<dir> -m 1000000 -f 1000` 
 
-![image](C:\Users\Dima\Desktop\sandpilesLARGE\sandpile6700000.bmp)
+![image](image\sandpile_6700000.bmp)
