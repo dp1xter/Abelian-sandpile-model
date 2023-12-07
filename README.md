@@ -19,6 +19,6 @@ v       v        v
 
 # Example of running the program
 
-`sandpile_model.exe --input=<tsv_file> --output=<dir> -m 1000000 -f 1000` 
+`sandpile_model.exe --input=<tsv_file> --output=<dir> -m 1000000 -f 1000`  
 
-![image](image\sandpile_6700000.bmp)
+[<img src="image\sandpile_6700000.bmp" width="1000"/>](image\sandpile_6700000.bmp)
