@@ -70,16 +70,16 @@ Points GetArrayOfPoints(const Config& options) {
         ++count_of_points;
     }
     file_tsv.seekg(std::ios::beg);
-    Point* points = new Point[count_of_points];
+
+    Points info_array_points = {new Point[count_of_points], count_of_points};
     size_t current_point_index = 0;
     int16_t x;
     int16_t y;
     uint64_t count_of_sand;
 
     while (file_tsv >> x >> y >> count_of_sand) {
-        points[current_point_index++] = {x, y, count_of_sand};
+        info_array_points.points_array[current_point_index++] = {x, y, count_of_sand};
     }
-    Points info_array_points = {points, count_of_points};
 
     file_tsv.close();
 
