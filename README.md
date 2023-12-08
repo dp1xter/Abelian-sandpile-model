@@ -1,6 +1,8 @@
 # Abelian sandpile model
 
-Based on the input data passed in the command line as arguments, `.bmp` images of the sandpile are generated at a given frequency.
+Based on the input data passed in the command line as arguments, `.bmp` images of the sandpile are generated at a given frequency. 
+
+**4-bit color encoding is used.**
 
 # Command line arguments
 - **--input=, -i** - source `.tsv` file with input data (*coordinates* and *number* of grains of sand inside a given cell).  
