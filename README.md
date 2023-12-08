@@ -21,4 +21,4 @@ v       v        v
 
 `sandpile_model.exe --input=<tsv_file> --output=<dir> -m 1000000 -f 1000`  
 
-[<img src="image\sandpile_6700000.bmp" width="1000"/>](image\sandpile_6700000.bmp)
+[<img src="src\sandpile.gif" width="500"/>](src\sandpile.gif)
