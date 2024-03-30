@@ -1,4 +1,4 @@
-#include "parser.h"
+#include "../include/parser.h"
 
 bool IsNumeric(const char* number) {
     while (*number != '\0') {

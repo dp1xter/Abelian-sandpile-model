@@ -1,4 +1,4 @@
-#include "bmp_creating.h"
+#include "../include/bmp_creating.h"
 
 BmpFileHeader::BmpFileHeader(size_t pixels_data_size) {
     bf_type = kAsciiBitmapFormat;

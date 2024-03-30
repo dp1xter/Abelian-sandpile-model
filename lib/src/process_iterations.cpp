@@ -1,5 +1,5 @@
-#include "process_iterations.h"
-#include "bmp_creating.h"
+#include "../include/process_iterations.h"
+#include "../include/bmp_creating.h"
 
 Field::Field(Points& info_array_points) {
     int64_t right_point = info_array_points.points_array[0].x;

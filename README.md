@@ -20,8 +20,11 @@ v       v        v
 - **--max-iter=, -m** - maximum number of algorithm iterations.
 - **--freq=, -f** - the frequency at which images are uploaded to the specified directory.
 
+# Requirements
+According to the requirements of lab-work, the use of the STL is prohibited.
+
 # Example of running the program
 
 `sandpile_model.exe --input=<tsv_file> --output=<dir> -m 1000000 -f 1000`  
 
-[<img src="src\sandpile.gif" width="500"/>](src\sandpile.gif)
+[<img src="gif_example\sandpile.gif" width="500"/>](src\sandpile.gif)
